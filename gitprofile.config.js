@@ -2,7 +2,7 @@
 
 const config = {
   github: {
-    username: 'apensab0322', // Your GitHub org/user name. (Required)
+    username: 'arifszn', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
@@ -11,36 +11,81 @@ const config = {
     },
   },
   social: {
-    linkedin: 'apensab0322',
-    twitter: '',
+    linkedin: 'ariful-alam',
+    twitter: 'arif_szn',
     facebook: '',
     instagram: '',
     dribbble: '',
     behance: '',
-    medium: '',
-    dev: '',
-    website: 'https://apensab0322.github.io',
+    medium: 'arifszn',
+    dev: 'arifszn',
+    website: 'https://arifszn.github.io',
     phone: '',
-    email: 'apensab0322@gmail.com',
+    email: 'arifulalamszn@gmail.com',
   },
   skills: [
     'PHP',
-    'Python',
+    'Laravel',
+    'JavaScript',
+    'React.js',
+    'Node.js',
+    'Nest.js',
+    'MySQL',
+    'Git',
+    'Docker',
+    'PHPUnit',
+    'CSS',
+    'Antd',
+    'Tailwind',
+    'Bootstrap',
   ],
   experiences: [
     {
-      company: 'Suburban Propane',
-      position: 'IT Support',
-      from: 'November 2015',
-      to: 'October 2018',
+      company: 'Monstarlab Bangladesh',
+      position: 'Backend Engineer II',
+      from: 'September 2021',
+      to: 'Present',
+    },
+    {
+      company: 'My Offer 360 Degree',
+      position: 'Web Application Developer',
+      from: 'July 2019',
+      to: 'August 2021',
     },
   ],
   education: [
     {
-      institution: 'Western Governors University',
-      degree: 'Bachelor of Science in Cybersecurity and Information Assurance',
-      from: '2022',
-      to: '2023',
+      institution: 'American International University-Bangladesh',
+      degree: 'Bachelor of Science',
+      from: '2015',
+      to: '2019',
+    },
+    {
+      institution: 'Cantonment College, Jessore',
+      degree: 'Higher Secondary Certificate (HSC)',
+      from: '2012',
+      to: '2014',
+    },
+    {
+      institution: 'Chowgacha Shahadat Pilot High School',
+      degree: 'Secondary School Certificate (SSC)',
+      from: '2007',
+      to: '2012',
+    },
+  ],
+  // Display blog posts from your medium or dev account. (Optional)
+  blog: {
+    source: 'dev', // medium | dev
+    username: 'arifszn', // to hide blog section, keep it empty
+    limit: 3, // How many posts to display. Max is 10.
+  },
+  googleAnalytics: {
+    // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+    id: 'G-WLLB5E14M6', // Please remove this and use your own tag id or keep it empty
+  },
+  hotjar: {
+    id: '2617601', //  Please remove this and use your own id or keep it empty
+    snippetVersion: 6,
   },
   themeConfig: {
     defaultTheme: 'corporate',
