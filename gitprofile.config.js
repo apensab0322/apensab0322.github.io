@@ -21,7 +21,7 @@ const config = {
     dev: '',
     website: 'apensab0322.github.io',
     phone: '',
-    email: 'apensab0322@protonmail',
+    email: 'apensab0322@protonmail.com',
   },
   skills: [
     'PHP',
